@@ -7,7 +7,13 @@ How tu use the excellent [https://ace.c9.io/](ace-editor) in a cljs app.
 Demonstrates a general pattern for using a mutable JS components in re-frame applications.
 
 ## Running the demo
- 
+
+## Install the dependencies:
+
+```
+lein npm install
+```
+
 ```
 lein figwheel dev
 ```

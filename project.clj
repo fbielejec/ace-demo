@@ -26,12 +26,8 @@
                                    :asset-path "js/compiled/out"
                                    :closure-defines {goog.DEBUG true}
                                    :source-map-timestamp true
-
-                                   :externs ["libs/ace.ext.js"]
-                                   :foreign-libs [{:file "libs/ace.js"
-                                                   :provides ["ace"]}]
-
-                                   }}]}
+                                   :foreign-libs [{:file "node_modules/ace/build/src-min/ace.js"
+                                                   :provides ["ace"]}]}}]}
   :clean-targets ^{:protect false} ["resources/public/js/compiled"
                                     "target"
                                     "test/js"])
