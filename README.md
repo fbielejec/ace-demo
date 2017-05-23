@@ -14,6 +14,8 @@ Demonstrates a general pattern for using a mutable JS components in re-frame app
 lein npm install
 ```
 
+then do:
+
 ```
 lein figwheel dev
 ```
@@ -25,7 +27,5 @@ lein repl
 (start-figwheel)
 ```
 
-Figwheel will automatically push cljs changes to the browser.
-
 Wait a bit, then browse to [http://localhost:8080](http://localhost:8080).
- 
+Figwheel will automatically push code changes to the browser. 
