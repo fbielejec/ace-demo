@@ -1,0 +1,24 @@
+body {
+    font-family: Roboto;
+    margin: 0px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    margin-top: 50px;
+    
+    height: 100%;
+    /* width: 100%; */
+}
+
+.ace-text-editor {
+    border-bottom: 1px solid #E3E3E3;
+    min-height: 400px;
+}
+
+.ace-text-editor>* {
+    z-index: 0;
+}
+
